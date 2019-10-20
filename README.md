@@ -8,8 +8,8 @@ This is especially useful when you always use certain gems in development but do
 
 Blog post:
 
-[Loading Additional Ruby Gems in Development<br>
-<small>Using your favorite gems without adding them to your project's Gemfile</small>](https://phili.pe/posts/loading-additional-ruby-gems-in-development/)
+[**Loading Additional Ruby Gems in Development**<br>
+*Using your favorite gems without adding them to your project's Gemfile*](https://phili.pe/posts/loading-additional-ruby-gems-in-development/)
 
 ## License
 
