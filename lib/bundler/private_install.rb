@@ -8,6 +8,7 @@ module Bundler
       puts nil, "Installing #{file}"
       system(%{cp Gemfile.lock "#{file}.lock"})
       system(%{BUNDLE_GEMFILE="#{file}" bundle install})
+      puts "Done installing #{file}", nil
     end
   end
 end
