@@ -2,7 +2,7 @@ require "bundler/private_install/version"
 
 module Bundler
   Plugin.add_hook('after-install-all') do |dependencies|
-    return unless SharedHelpers.default_gemfile.basename.to_s == 'Gemfile'
+    next unless SharedHelpers.default_gemfile.basename.to_s == 'Gemfile'
 
     `grep --files-with-match --null eval_gemfile Gemfile.*`.split("\x0").each do |file|
       puts nil, "Installing #{file}"
